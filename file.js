@@ -23,3 +23,13 @@ const fs =require("fs");
 // console.log(fs.statSync("./test.txt"))
 // fs.mkdirSync("my-docs")
 // fs.mkdirSync("my-docs/a/dx", {recursive: true})
+
+// console.log("1")
+// console.log(fs.readFileSync("./tecbv.c", "utf-8"))
+// fs.readFile("tecbv.c", "utf-8", (err, res)=>{
+//     console.log(res)
+// })
+// console.log("2")
+
+let os = require("os")
+console.log(os.cpus().length)
