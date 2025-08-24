@@ -27,6 +27,7 @@ const myserver = http.createServer((req, res) => {
                 else if (req.method === "POST") {
                     res.end("Succesfully submitted")
                 }
+                break;
             default:
                 res.end("404 Not Found")
                 break;
